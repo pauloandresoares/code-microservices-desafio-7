@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+
+kind: Deployment
+
+metadata:
+  name: golang-server
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: golang-server
+      tier: golang
+
+  template:
+    metadata:
+      labels:
+        app: golang-server
+        tier: golang
+
+    spec:
+      containers:
+      - name: desafio-final
+
+        image: image-desafio-final-deployment
+
+        ports:
+        - containerPort: 80
