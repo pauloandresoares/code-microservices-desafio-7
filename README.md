@@ -1,6 +1,5 @@
 # Code Education - desafio 7 (FINAL) - Deploy Contínuo
 
-
 Deploy automático da aplicação já desenvolvida em Go Lang nas fases passadas.
 
 As regras do processo são:
