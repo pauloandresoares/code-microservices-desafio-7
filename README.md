@@ -25,6 +25,7 @@ Verificar aplicação no ambiente local:
 ![CI](/desafio-final-ci.png)
 
 ### CI e CD no Cloud Build:
+
 ![CI](/desafio-final-ci-cd.png)
 
 
