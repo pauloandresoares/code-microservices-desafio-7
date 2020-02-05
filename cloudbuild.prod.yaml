@@ -32,7 +32,7 @@ steps:
   args: ['apply', '-f', 'go/deployment-new.yaml']
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-desafio-final'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=your-first-cluster-1'
 
 images:
   - 'gcr.io/$PROJECT_ID/desafio-final:$SHORT_SHA'
